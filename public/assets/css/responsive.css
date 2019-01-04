@@ -1,0 +1,188 @@
+/*--------------------------------------
+------------- Large Device --------------
+---------------------------------------*/
+
+@media(min-width: 992px) and (max-width: 1199px) {
+    /* Mene part start */
+    #my_nav ul li a {
+        padding: 25px 8px;
+    }
+    /* Mene part end */
+    /* Shanchalon page css */
+    .blood_table {
+        overflow-y: scroll;
+    }
+}
+
+
+
+/*--------------------------------------
+----------- Medium Device --------------
+---------------------------------------*/
+
+@media(min-width: 768px) and (max-width: 991px) {
+    /* Menu start */
+    #my_nav ul li a {
+        padding: 5px 10px;
+        display: block;
+    }
+    #my_nav ul li a:before,
+    #my_nav ul li a:after {
+        height: 0;
+    }
+    /* Menu end */
+    /* Slider part start */
+    .slider {
+        height: auto;
+    }
+    /* Slider part end */
+    /* About part start */
+    .about {
+        padding: 30px 0;
+    }
+    .about_content h2 {
+        font-size: 35px;
+        padding-bottom: 10px;
+    }
+    /* About part end */
+    /* gallery page css */
+    .search_by_group {
+        padding: 10px 0;
+    }
+    /* Shanchalon page css */
+    .blood_table {
+        overflow-y: scroll;
+    }
+}
+
+
+/*--------------------------------------
+------------ Small Device --------------
+---------------------------------------*/
+
+@media(min-width: 576px) and (max-width: 767px) {
+    /* Menu start */
+    #my_nav ul li a {
+        padding: 5px 10px;
+        display: block;
+    }
+    #my_nav ul li a:before,
+    #my_nav ul li a:after {
+        height: 0;
+    }
+    /* Menu end */
+    /* Slider part start */
+    .slider {
+        height: auto;
+    }
+    /* Slider part end */
+    /* About part start */
+    .about {
+        padding: 30px 0;
+    }
+    .about_content h2 {
+        font-size: 35px;
+        padding-bottom: 10px;
+    }
+    /* About part end */
+    /* member page css */
+    .gallery,
+    .publication,
+    .member {
+        padding: 30px 0;
+    }
+    .member .section_title h2 {
+        font-size: 30px;
+    }
+
+    /* Archieve page css */
+    .emb {
+        margin-bottom: 10px;
+    }
+
+    /* gallery page css */
+    .search_by_group {
+        padding: 10px 0;
+    }
+    /* Shanchalon page css */
+    .blood_table {
+        overflow-y: scroll;
+    }
+
+
+}
+
+
+/*--------------------------------------
+------ Extra Small Device --------------
+---------------------------------------*/
+
+@media (max-width: 575px) {
+    /* Menu start */
+    #my_nav ul li a {
+        padding: 5px 10px;
+        display: block;
+    }
+    #my_nav ul li a:before,
+    #my_nav ul li a:after {
+        height: 0;
+    }
+    /* Menu end */
+    /* Slider part start */
+    .slider {
+        height: auto;
+    }
+    /* Slider part end */
+    /* About part start */
+    .about {
+        padding: 25px 0;
+    }
+    .about_content h2 {
+        font-size: 30px;
+        padding-bottom: 10px;
+    }
+    .about_content p {
+        font-size: 15px;
+    }
+    /* About part end */
+    /*-----------Member page responsive css here ------------*/
+    .single_member {
+        max-width: 300px;
+        margin: 0 auto 30px;
+    }
+    .gallery,
+    .publication,
+    .member {
+        padding: 30px 0;
+    }
+    .member .section_title h2 {
+        font-size: 30px;
+    }
+
+    /* Archieve page css */
+    .emb {
+        margin-bottom: 10px;
+    }
+
+    /* Publication page css */
+    p.sonkha,
+    h3.sonkha,
+    .single_chitron {
+        max-width: 160px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    /* gallery page css */
+    .search_by_group {
+        padding: 10px 0;
+    }
+    /* Shanchalon page css */
+    .single_blood {
+        max-width: 250px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .blood_table {
+        overflow-y: scroll;
+    }
+}
